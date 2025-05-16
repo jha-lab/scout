@@ -208,7 +208,7 @@ class SCOUT(object):
 
     def load_model_from_checkpoint(self, modelpath):
 
-        cp = torch.load(modelpath,map_location=self.device)
+        cp = torch.load(modelpath,map_location=self.device, weights_only=False)
         state_dict = cp['model_state_dict']
         self.model.load_state_dict(state_dict)
 

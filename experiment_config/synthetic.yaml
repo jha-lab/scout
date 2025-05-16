@@ -14,7 +14,7 @@ post_int_len: 10 #modeling the post-intervention interval
 time_range: 2000 #total interval period
 interv_time: 1600 #intervention time
 target_id: 0 #target unit id
-lowrank: true #use low-rank approximation
+lowrank: false #use low-rank approximation
 rank: 10 #rank of the low-rank approximation
 
 #training parameters
