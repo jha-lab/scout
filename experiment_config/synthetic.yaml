@@ -1,0 +1,24 @@
+#architecture parameters
+feature_dim: 2 # number of covariates
+cont_dim: 2 # number of continuous covariates
+discrete_dim: 0 # number of discrete covariates
+hidden_size: 32 # hidden size of the transformer
+n_layers: 3 # number of layers in the SCout model
+n_heads: 1 # number of attention heads in the SCout model
+
+#modeling parameters
+K: 10 #number of donor units
+seq_range: 11 #total units (donor+1)
+pre_int_len: 20 #modeling the pre-intervention interval
+post_int_len: 10 #modeling the post-intervention interval
+time_range: 2000 #total interval period
+interv_time: 1600 #intervention time
+target_id: 0 #target unit id
+lowrank: true #use low-rank approximation
+rank: 10 #rank of the low-rank approximation
+
+#training parameters
+batch_size: 128 #batch size
+lr: 1e-4 #learning rate
+weight_decay: 1e-4 #weight decay
+warmup_steps: 500 #warmup steps
