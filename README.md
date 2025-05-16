@@ -10,8 +10,23 @@
 
 This is the official repository for the paper [SCouT: Synthetic Counterfactuals via Spatiotemporal Transformers for Actionable Healthcare](https://arxiv.org/abs/2207.04208).
 
-![SCouT Architecture](scout.png)
+## Table of Contents
 
+- [Environment Setup](#environment-setup)
+- [Dataset Setup](#dataset-setup)
+- [Experiment Config Setup](#experiment-config-setup)
+  - [Architecture Parameters](#architecture-parameters)
+  - [Modeling Parameters](#modeling-parameters)
+  - [Training Parameters](#training-parameters)
+- [SCouT Library](#scout-library)
+  - [Initialization](#initialization)
+  - [Training](#training)
+  - [Prediction](#prediction)
+  - [Attention Analysis](#attention-analysis)
+  - [Loading from Checkpoint](#loading-from-checkpoint)
+- [Demo](#demo)
+- [Third Party Code](#third-party-code)
+- [Citations](#citations)
 
 ## Environment setup
 
