@@ -1,12 +1,10 @@
-# scout
-[ACM Transactions on Computing for Heathcare, 2023] ScouT:  Synthetic Counterfactuals via Spatiotemporal Transformers for Actionable Healthcare
+# [ACM Transactions on Computing for Heathcare, 2023] ScouT:  Synthetic Counterfactuals via Spatiotemporal Transformers for Actionable Healthcare
 
 
 ![Python Version](https://img.shields.io/badge/python-v3.6%20%7C%20v3.7%20%7C%20v3.8-blue)
 ![Conda](https://img.shields.io/badge/conda%7Cconda--forge-v4.8.3-blue)
 ![PyTorch](https://img.shields.io/badge/pytorch-v1.8.1-e74a2b)
 ![CUDA](https://img.shields.io/badge/cuda-v11.1.1-76b900)
-![License](https://img.shields.io/badge/license-Clear%20BSD-green)
 
 This is the official repository for the paper [SCouT: Synthetic Counterfactuals via Spatiotemporal Transformers for Actionable Healthcare](https://arxiv.org/abs/2207.04208).
 
@@ -44,7 +42,7 @@ Data is setup as a N x T x D numpy matrix `data.npy` where:
 
 Along with the data matrix provide a binary matrix `mask.npy` of shape N x T indicating missing measurement by 1
 
-See ``/synthetic_data/synethtic_data_noise_1'' for an example
+See ``/synthetic_data/synethtic_data_noise_1`` for an example
 
 ## Experiment Config Setup
 
